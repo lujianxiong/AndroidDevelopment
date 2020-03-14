@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你喜欢的体育运动有："/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/paobu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跑步"/>
+        <CheckBox
+            android:id="@+id/youyong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="游泳"/>
+        <CheckBox
+            android:id="@+id/yumaoqiu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打羽毛球"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tijiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交"/>
+</LinearLayout>

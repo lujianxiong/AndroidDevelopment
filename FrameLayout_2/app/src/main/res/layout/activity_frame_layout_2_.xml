@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/map"/>
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="60dp"
+    android:layout_height="30dp"
+    android:layout_marginTop="350dp"
+    android:layout_marginLeft="20dp"
+    android:text="定位"
+    android:background="#80000000"
+    android:textColor="#fffaf0"
+    />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="310dp"
+        android:text="路况"
+        android:background="#80000000"
+        android:textColor="#fffaf0"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="310dp"
+        android:text="全景"
+        android:background="#80000000"
+        android:textColor="#fffaf0"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="310dp"
+        android:text="同行"
+        android:background="#80000000"
+        android:textColor="#fffaf0"
+        />
+
+    <EditText
+        android:layoutmarginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="  搜地点、查公交、找路线"
+        android:background="#fffaf0"
+        android:layout_gravity="center_horizontal|top"
+        />
+</FrameLayout>
