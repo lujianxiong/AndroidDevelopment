@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="daxiong.broadcastreceiver.exmple2.broadcastreceiver_3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".MyReceiver1"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter android:priority="100">
+                <action android:name="Broadcast"/>.
+            </intent-filter>
+
+        </receiver>
+
+        <receiver
+            android:name=".MyReceiver2"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter android:priority="300">
+                <action android:name="Broadcast"/>.
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".MyReceiver3"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="200">
+                <action android:name="Broadcast"/>.
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
