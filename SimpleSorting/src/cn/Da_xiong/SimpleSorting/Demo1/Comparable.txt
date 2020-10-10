@@ -1,3 +1,0 @@
-使用Comparable接口 根据属性 对 对象进行排序
-
-Comparable[] a:传入实现Comparable接口的类的数组
